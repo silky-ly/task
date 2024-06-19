@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Register</title>
+    <style>
+      /* 400 */
+      @font-face {
+        font-family: "Red Hat Display Regular";
+        src: url("https://db.onlinewebfonts.com/t/5041cfb4782f6fc9e865ba6cb24cef48.ttf")
+          format("truetype");
+      }
+
+      /* 500 */
+      @font-face {
+        font-family: "Red Hat Display Medium";
+        src: url("https://db.onlinewebfonts.com/t/9a770cef8ab24ec793aa900a5a9314b8.ttf")
+          format("truetype");
+      }
+
+      /* 700 */
+      @font-face {
+        font-family: "Red Hat Display Bold";
+        src: url("https://db.onlinewebfonts.com/t/2d4f6e10521f352375cc35d043196913.ttf")
+          format("truetype");
+      }
+
+      /* 900 */
+      @font-face {
+        font-family: "Red Hat Display Black";
+        src: url("https://db.onlinewebfonts.com/t/9230bf47b44825018fa3faab4251a806.ttf")
+          format("truetype");
+      }
+    </style>
+  </head>
+
+  <body style="height: min-content">
+    <section
+      class=""
+      style="display: grid; grid-template-columns: 1fr 1fr; height: 100vh"
+    >
+      <div
+        class=""
+        style="background-color: #003380; height: 100vh; padding: 60px"
+      >
+        <h1 style="color: white">infomation</h1>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+          magni ea repellat a sunt vero fugiat, laboriosam odio earum, officiis
+          fuga deserunt corporis labore eveniet animi ipsa, consequatur non
+          commodi? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Debitis magni ea repellat a sunt vero fugiat, laboriosam odio earum,
+          officiis fuga deserunt corporis labore eveniet animi ipsa, consequatur
+          non commodi? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Debitis magni ea repellat a sunt vero fugiat, laboriosam odio earum,
+          officiis fuga deserunt corporis labore eveniet animi ipsa, consequatur
+          non commodi? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Debitis magni ea repellat a sunt vero fugiat, laboriosam odio earum,
+          officiis fuga deserunt corporis labore eveniet animi ipsa, consequatur
+          non commodi?
+        </p>
+
+        <button>
+          <a href="login.html">Have An Account</a>
+        </button>
+      </div>
+
+      <div
+        id="register"
+        style="background-color: white; height: 100vh; padding: 60px"
+      >
+        <h1 style="color: #0055d4">register form</h1>
+
+        <form
+          action=""
+          style="
+            margin: 40px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+          "
+        >
+          <div class="container-wrapper">
+            <div class="wrapper">
+              <label for="firstname">First Name</label>
+              <input type="text" name="firstname" />
+            </div>
+
+            <div class="wrapper">
+              <label for="lastname">Last Name</label>
+              <input type="text" name="lastname" />
+            </div>
+          </div>
+
+          <div class="wrapper">
+            <label for="email">Your Email</label>
+            <input type="email" name="email" />
+          </div>
+
+          <div class="container-wrapper">
+            <div class="wrapper">
+              <label for="password">Password</label>
+              <input type="password" name="password" />
+            </div>
+
+            <div class="wrapper">
+              <label for="confirmpassword">Confirm Password</label>
+              <input type="password" name="confirmpassword" />
+            </div>
+          </div>
+
+          <label
+            class="checkbox-label"
+            style="display: flex; align-items: center; gap: 5px"
+          >
+            <input type="checkbox" name="agree" value="newsletter" />
+            I agree to the
+            <a
+              href=""
+              style="
+                color: #0055d4;
+                font-weight: 500;
+                text-decoration: underline;
+                text-underline-offset: 3px;
+                font-family: 'Red Hat Display Medium';
+              "
+              >Terms and Conditions</a
+            >
+          </label>
+
+          <button style="width: 30%">
+            <a href="">Register</a>
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

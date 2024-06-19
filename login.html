@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Login</title>
+    <style>
+      /* 400 */
+      @font-face {
+        font-family: "Red Hat Display Regular";
+        src: url("https://db.onlinewebfonts.com/t/5041cfb4782f6fc9e865ba6cb24cef48.ttf")
+          format("truetype");
+      }
+
+      /* 500 */
+      @font-face {
+        font-family: "Red Hat Display Medium";
+        src: url("https://db.onlinewebfonts.com/t/9a770cef8ab24ec793aa900a5a9314b8.ttf")
+          format("truetype");
+      }
+
+      /* 700 */
+      @font-face {
+        font-family: "Red Hat Display Bold";
+        src: url("https://db.onlinewebfonts.com/t/2d4f6e10521f352375cc35d043196913.ttf")
+          format("truetype");
+      }
+
+      /* 900 */
+      @font-face {
+        font-family: "Red Hat Display Black";
+        src: url("https://db.onlinewebfonts.com/t/9230bf47b44825018fa3faab4251a806.ttf")
+          format("truetype");
+      }
+    </style>
+  </head>
+
+  <body style="height: min-content">
+    <section
+      class=""
+      style="display: grid; grid-template-columns: 1fr 1fr; height: 100vh"
+    >
+      <div
+        class=""
+        style="background-color: #003380; height: 100vh; padding: 60px"
+      >
+        <h1 style="color: white">infomation</h1>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+          magni ea repellat a sunt vero fugiat, laboriosam odio earum, officiis
+          fuga deserunt corporis labore eveniet animi ipsa, consequatur non
+          commodi? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Debitis magni ea repellat a sunt vero fugiat, laboriosam odio earum,
+          officiis fuga deserunt corporis labore eveniet animi ipsa, consequatur
+          non commodi? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Debitis magni ea repellat a sunt vero fugiat, laboriosam odio earum,
+          officiis fuga deserunt corporis labore eveniet animi ipsa, consequatur
+          non commodi? Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Debitis magni ea repellat a sunt vero fugiat, laboriosam odio earum,
+          officiis fuga deserunt corporis labore eveniet animi ipsa, consequatur
+          non commodi?
+        </p>
+
+        <button>
+          <a href="register.html">Don't have An Account</a>
+        </button>
+      </div>
+
+      <div
+        id="register"
+        style="background-color: white; height: 100vh; padding: 60px"
+      >
+        <h1 style="color: #0055d4">login form</h1>
+
+        <form
+          action=""
+          style="
+            margin: 40px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+          "
+        >
+          <div class="wrapper" style="width: 50%">
+            <label for="email">Your Email</label>
+            <input type="email" name="email" />
+          </div>
+
+          <button style="width: 50%">
+            <a href="">Login</a>
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
