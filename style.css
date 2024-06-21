@@ -1,73 +1,132 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .img-svg {
-  width: 25%;
-  height: 25%;
+	width: 25%;
+	height: 25%;
+}
+
+section {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	height: 100vh;
 }
 
 h1 {
-  text-transform: uppercase;
-  font-size: 40px;
-  font-family: "Red Hat Display Black";
+	text-transform: uppercase;
+	font-size: 40px;
+	font-family: "Red Hat Display Black";
+}
+
+.left {
+	background-color: #003380;
+	height: 100vh;
+	padding: 60px;
+}
+
+.left h1 {
+	color: white;
+}
+
+.right {
+	background-color: white;
+	height: 100vh;
+	padding: 60px;
+}
+
+.right h1 {
+	color: #0055d4;
 }
 
 p {
-  margin: 40px 0;
-  color: white;
-  font-size: 16px;
-  line-height: 24px;
-  font-family: "Red Hat Display Regular";
+	margin: 40px 0;
+	color: white;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: "Red Hat Display Regular";
 }
 
 a {
-  text-decoration: none;
+	text-decoration: none;
 }
 
 button {
-  background-color: #0055d4;
-  border: 1px solid #0055d4;
-  border-radius: 4px;
-  height: 44px;
-  padding: 10px 20px;
+	background-color: #0055d4;
+	border: 1px solid #0055d4;
+	border-radius: 4px;
+	height: 44px;
+	padding: 10px 20px;
 }
 
 button > a {
-  color: #fff;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 24px;
+	color: #fff;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .container-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+form {
+	margin: 40px 0;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+
+.login-form .wrapper {
+	width: 50% !important;
+}
+
+.login-form button {
+	width: 50% !important;
 }
 
 label {
-  font-size: 14px;
-  font-family: "Red Hat Display Regular";
+	font-size: 14px;
+	font-family: "Red Hat Display Regular";
 }
 
 input {
-  height: 40px;
-  border: 0.5px solid #d0d5dd;
-  border-radius: 4px;
-  padding-left: 10px;
+	height: 40px;
+	border: 0.5px solid #d0d5dd;
+	border-radius: 4px;
+	padding-left: 10px;
 }
 
 input:focus {
-  outline: none;
+	outline: none;
+}
+
+.checkbox-label {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.checkbox-label a {
+	color: #0055d4;
+	font-weight: 500;
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	font-family: "Red Hat Display Medium";
+}
+
+.register-form button {
+	width: 30%;
 }
 
 @media screen and (max-width: 620px) {
